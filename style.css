@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://www.digitaltrends.com/wp-content/uploads/2021/12/windows-11-logo-on-laptop-screen.jpg?fit=720%2C720&p=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.start-head{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.result #value{
+    background-color: rgb(33, 173, 33);
+    text-align: center;
+    padding: 0.5rem;
+}
